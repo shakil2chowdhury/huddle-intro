@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    padding-bottom: 10px;
+    text-shadow: 10px 10px 50px rgba(48, 47, 47, 0.788);
+}
+
+p {
+    padding: 10px 40px 40px 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-shadow: 1px 1px 5px rgba(26, 25, 25, 0.808);
+}
+
+.introduction {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./images/bg-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    padding: 50px 0px 0px 50px;
+}
+
+.logo img {
+    width: 40%;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+.half-width {
+    width: 40%;
+}
+
+.header-img {
+    padding: 100px 0 0 50px;
+    width: 45%;
+}
+
+.header-img img {
+    width: 100%;
+}
+
+.header-content {
+    padding: 100px 50px 0 50px;
+    width: 45%;
+    justify-content: space-around;
+}
+
+.link_button:hover {
+    text-decoration: none;
+    background-color: hsl(300, 69%, 71%);
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    box-shadow: 3px 3px 10px rgba(49, 49, 49, 0.671);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.link_button {
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 3px 3px 10px rgba(49, 49, 49, 0.671);
+    transition: 0.3s ease-in-out;
+}
+
+.social-icon {
+    height: 100px;
+    width: 100px;
+    padding-left: 80%;
+}
+
+.social-icons {
+    height: 34%;
+    width: 34%;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.social-icons i {
+    margin-right: 30%;
+    height: 20px;
+    width: 20px;
+    padding: 14px 16px;
+    background-color: rgba(0, 0, 0, 0.089);
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: large;
+    transition: .3s ease-in-out;
+}
+
+.social-icons i:first-child {
+    padding: 14px 20px;
+    border-radius: 30px;
+}
+
+.social-icons i:hover {
+    cursor: pointer;
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    transition: .3s ease-in-out;
+}
